@@ -50,7 +50,7 @@ const ProductDetails = () => {
 
   return (
     <div className="max-w-6xl mx-auto px-5 py-10">
-       <button onClick={()=>{navigate1("/products")}} className="p-4 m-3 border rounded-lg">Back to products page</button>
+       <button onClick={()=>{navigate1("/products")}} className="bg-[#4294f7] text-white px-8 py-2 rounded-lg hover:bg-blue-600 transition duration-300 cursor-pointer ">Back to products page</button>
       <div className="grid md:grid-cols-2 gap-10 items-start">
        
         <div className="bg-gray-100 rounded-xl p-10">
